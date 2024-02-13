@@ -5,7 +5,7 @@ function LeftHeader() {
     return (
         <div className='header-left-div'>
             <img src = {Logo}></img>
-            <h2>My Gallery</h2>
+            <h2 onClick = {() => {window.location.href = '/';}}>My Gallery</h2>
         </div>
     )
 
